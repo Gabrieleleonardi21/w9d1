@@ -3,14 +3,14 @@
 // che applica una classe CSS modificatrice. È solo grafico: nessuna logica al click.
 function Button({ label, variant }) {
   // Classe base sempre presente; il modificatore (es. "ui-button--accent") si aggiunge solo se variant è definita
-  const classes = ['ui-button']
-  if (variant) classes.push(`ui-button--${variant}`)
+  let classes = "ui-button";
+  if (variant) classes += ` ui-button--${variant}`;
 
   return (
-    <button type="button" className={classes.join(' ')}>
+    <button type="button" className={classes}>
       {label}
     </button>
-  )
+  );
 }
 
-export default Button
+export default Button;
