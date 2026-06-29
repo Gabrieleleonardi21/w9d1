@@ -1,0 +1,46 @@
+/* Pagina: sfondo scuro, contenuto centrato in colonna */
+.page {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 24px;
+  box-sizing: border-box;
+  background: #2b323e;
+}
+
+/* Bottone riutilizzabile: grigio chiaro con bordo sottile */
+.ui-button {
+  font-family: var(--mono);
+  font-size: 14px;
+  padding: 6px 12px;
+  border: 1px solid #c9c9c4;
+  border-radius: 4px;
+  background: #f3f3ee;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+/* Variante accento: testo arancione */
+.ui-button--accent {
+  color: #e07b39;
+}
+
+/* Card immagine: cornice attorno all'immagine, formato orizzontale come nello screenshot */
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 330px;
+  max-width: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+  background: #4a4a52;
+}
+
+.card-img {
+  width: 150px;
+  height: auto;
+}
