@@ -19,13 +19,13 @@
   border: 1px solid #c9c9c4;
   border-radius: 4px;
   background: #f3f3ee;
-  color: #1a1a1a;
+  color: var(--btn-text);
   cursor: pointer;
 }
 
 /* Variante accento: testo arancione */
 .ui-button--accent {
-  color: #e07b39;
+  color: var(--btn-accent);
 }
 
 /* Card immagine: cornice attorno all'immagine, formato orizzontale come nello screenshot */
